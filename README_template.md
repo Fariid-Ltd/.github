@@ -1,6 +1,6 @@
 # 🚀 Our Organization's Projects
 
-Welcome to our organization's GitHub profile! Here you'll find a collection of exciting projects from our team member @moha-abdi, showcasing our commitment to innovation and quality software development.
+Welcome to our organization's GitHub profile! Here you'll find a collection of exciting projects from our team member [@moha-abdi](https://github.com/moha-abdi), showcasing our commitment to innovation and quality software development.
 
 ## 📚 Repository List
 
