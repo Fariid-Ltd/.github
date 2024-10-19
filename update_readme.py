@@ -40,7 +40,7 @@ for name, branch in repo_names_branches.items():
         else:
             update_text = f"{time_diff.days // 30} months ago"
 
-        repo_name = "Fariid" if repo.name == "Sarifle" else repo.name
+        repo_name = "Fariid" if repo.name == "sarifle" else repo.name
         repo_info.append(
             {
                 "name": repo_name,
