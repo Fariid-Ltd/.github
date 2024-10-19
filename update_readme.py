@@ -3,7 +3,7 @@ from github import Github
 from datetime import datetime, timezone
 
 # Initialize GitHub client
-g = Github(os.environ['GITHUB_TOKEN'])
+g = Github(os.environ['TOKEN_GITHUB'])
 
 # Get the user (your personal account)
 user = g.get_user("moha-abdi")
