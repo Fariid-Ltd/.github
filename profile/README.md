@@ -4,7 +4,7 @@ Welcome to our organization's GitHub profile! Here you'll find a collection of e
 
 ## 📚 Repository List
 
-### [sarifle](https://github.com/moha-abdi/sarifle) (🔒 Private)
+### [Fariid](#) (🔒 Private)
 - **Description**: Private project for fariid app.
 - **Language**: TypeScript
 - **License**: No license
