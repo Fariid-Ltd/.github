@@ -8,19 +8,18 @@ g = Github(os.environ['GITHUB_TOKEN'])
 user = g.get_user("moha-abdi")
 
 repo_names_branches = {
-    "Sarifle": "fariid-rebrand",
+    "Sarifle": "fariid-rebrand", 
     "SIPUserRegistrar": "main",
     "TronWatch": "main",
     "baileys-api": "main"
 }
 
-# Prepare the repository information
 repo_info = []
 for name, branch in repo_names_branches.items():
     try:
         repo = user.get_repo(name)
         branch_info = repo.get_branch(branch)
-        last_updated = branch_info.updated_at.astimezone(timezone.utc)
+        last_updated = branch_info.commit.committer.date.astimezone(timezone.utc) 
         time_diff = datetime.now(timezone.utc) - last_updated
         
         if time_diff.days == 0:
@@ -39,16 +38,15 @@ for name, branch in repo_names_branches.items():
         else:
             update_text = f"{time_diff.days // 30} months ago"
 
-        repo_name = "Fariid" if branch_info.name == "Sarifle" else branch_info.name
         repo_info.append({
-            'name': branch_info.name,
-            'description': branch_info.description or "*No description provided*",
-            'language': branch_info.language,
-            'private': branch_info.private,
-            'fork': branch_info.fork,
+            'name': repo.name,
+            'description': repo.description or "*No description provided*",
+            'language': repo.language,
+            'private': repo.private,
+            'fork': repo.fork,
             'updated': update_text,
-            'license': branch_info.license.name if branch_info.license else "No license",
-            'topics': branch_info.get_topics()
+            'license': repo.license.name if repo.license else "No license",
+            'topics': repo.get_topics()
         })
     except Exception as e:
         print(f"Error fetching repository {name}: {str(e)}")
@@ -63,7 +61,7 @@ for repo in repo_info:
     repo_url = f"https://github.com/moha-abdi/{repo['name']}" if repo['name'] != "Fariid" else "#"
     privacy = "🔒 Private" if repo['private'] else "🌐 Public"
     fork_text = " (Fork)" if repo['fork'] else ""
-    repo_list += f"### [{repo['name']}](repo_url) ({privacy}{fork_text})\n"
+    repo_list += f"### [{repo['name']}]({repo_url}) ({privacy}{fork_text})\n" 
     repo_list += f"- **Description**: {repo['description']}\n"
     repo_list += f"- **Language**: {repo['language']}\n"
     if repo['topics']:
