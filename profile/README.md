@@ -4,26 +4,26 @@ Welcome to our organization's GitHub profile! Here you'll find a collection of e
 
 ## 📚 Repository List
 
-### [fariid-rebrand](https://github.com/moha-abdi/fariid-rebrand) (🔒 Private)
+### [sarifle](https://github.com/moha-abdi/sarifle) (🔒 Private)
 - **Description**: Private project for fariid app.
 - **Language**: TypeScript
 - **License**: No license
 - **Last Updated**: within the last hour
 
-### [main](https://github.com/moha-abdi/main) (🌐 Public)
+### [SIPUserRegistrar](https://github.com/moha-abdi/SIPUserRegistrar) (🌐 Public)
 - **Description**: *No description provided*
 - **Language**: Go
 - **License**: No license
 - **Last Updated**: yesterday
 
-### [main](https://github.com/moha-abdi/main) (🌐 Public)
+### [TronWatch](https://github.com/moha-abdi/TronWatch) (🌐 Public)
 - **Description**: A TRON network service that watches for USDT transactions on the blockchain, automates monitoring with webhook notifications."
 - **Language**: TypeScript
 - **Tags**: `blockchain`, `trc20`, `tron`, `trongrid`, `usdt`
 - **License**: No license
 - **Last Updated**: 2 weeks ago
 
-### [main](https://github.com/moha-abdi/main) (🌐 Public (Fork))
+### [baileys-api](https://github.com/moha-abdi/baileys-api) (🌐 Public (Fork))
 - **Description**: Simple WhatsApp REST API with multiple device support
 - **Language**: TypeScript
 - **License**: MIT License
