@@ -12,8 +12,8 @@ We welcome contributions to our public repositories! If you're interested in col
 
 ## 📬 Contact
 
-For any inquiries about our projects or organization, please [contact us](mailto:your-email@example.com).
+For any inquiries about our projects or organization, please [contact us](mailto:mohaa6052@gmail.com).
 
 ---
 
-<p align="center">© 2023 Your Organization Name. All rights reserved.</p>
+<p align="center">© 2024 Your Organization Name. All rights reserved.</p>
