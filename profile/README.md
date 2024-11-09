@@ -41,4 +41,4 @@ For any inquiries about our projects or organization, please [contact us](mailto
 
 ---
 
-<p align="center">© 2024 Your Organization Name. All rights reserved.</p>
+<p align="center">© 2024 Fariid Ltd. All rights reserved.</p>
