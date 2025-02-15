@@ -16,11 +16,11 @@ Welcome to our organization's GitHub profile! Here you'll find a collection of e
 - **License**: No license
 - **Last Updated**: 1 months ago
 
-### [TronWatch](https://github.com/moha-abdi/TronWatch) (🌐 Public)
-- **Description**: A TRON network service that watches for USDT transactions on the blockchain, automates monitoring with webhook notifications."
+### [tether-watcher](https://github.com/moha-abdi/tether-watcher) (🌐 Public)
+- **Description**: A blockchain service that watches for USDT transactions on TRON and BSC networks, providing automated monitoring with webhook notifications."
 - **Language**: TypeScript
 - **Tags**: `blockchain`, `trc20`, `tron`, `trongrid`, `usdt`
-- **License**: No license
+- **License**: MIT License
 - **Last Updated**: 1 months ago
 
 ### [baileys-api](https://github.com/moha-abdi/baileys-api) (🌐 Public (Fork))
